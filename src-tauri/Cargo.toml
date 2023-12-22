@@ -5,7 +5,7 @@ description = "Anxious is an intelligent and powerful program designed to optimi
 authors = ["aksueikava"]
 license = "GPL-3.0"
 repository = "https://github.com/aksueikava/Anxious"
-edition = "2023"
+edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
