@@ -7,7 +7,7 @@ With Anxious, you can rest assured that your computer will always run at top spe
 
 # Getting Started
 ```bash
-gh repo clone aksueikava/Anxious/
+gh repo clone aksueikava/Anxious
 cd Anxious
 
 pnpm i
