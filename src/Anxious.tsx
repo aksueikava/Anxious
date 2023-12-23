@@ -1,5 +1,3 @@
-import { useState } from "react"
-import { invoke } from "@tauri-apps/api/tauri"
 import { Menu } from "@/components/menu"
 import { TailwindIndicator } from "./components/tailwind-indicator"
 import { ThemeProvider } from "./components/theme-provider"
