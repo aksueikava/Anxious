@@ -5,4 +5,14 @@ Anxious uses advanced algorithms and technologies to detect and remove unnecessa
 
 With Anxious, you can rest assured that your computer will always run at top speed. The program automatically optimizes your system in the background, giving you a constant performance boost without the need for manual intervention.
 
+# Getting Started
+```bash
+gh repo clone aksueikava/Anxious/
+cd Anxious
+
+pnpm i
+pnpm tauri dev
+pnpm tauri build
+```
+
 ![image](https://github.com/aksueikava/Anxious/assets/135703603/d84faa27-07f7-48b7-8ceb-e794f0ae0d21)
