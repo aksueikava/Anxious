@@ -68,7 +68,7 @@
     "windows": [
       {
         "fullscreen": false,
-        "title": "Anxious Stable",
+        "title": "Anxious",
         "center": true,
         "resizable": false,
         "decorations": false,
