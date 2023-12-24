@@ -21,4 +21,22 @@ pnpm tauri dev
 pnpm tauri build
 ```
 
+# Update Components
+
+### shadcn/ui
+
+Update all components:
+
+```bash
+npx shadcn-ui@latest add --overwrite
+# press "a" to select all components
+```
+
+Update a specific component:
+
+```bash
+npx shadcn-ui@latest add dialog --overwrite
+```
+
+
 ![image](https://github.com/aksueikava/Anxious/assets/135703603/d84faa27-07f7-48b7-8ceb-e794f0ae0d21)
