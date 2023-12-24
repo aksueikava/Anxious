@@ -13,11 +13,15 @@ With Anxious, you can rest assured that your computer will always run at top spe
 
 # Getting Started
 ```bash
+# clone the repository
 git clone https://github.com/aksueikava/Anxious.git
 cd Anxious
 
+# install all packages
 pnpm i
+# run dev server
 pnpm tauri dev
+# build everything
 pnpm tauri build
 ```
 
