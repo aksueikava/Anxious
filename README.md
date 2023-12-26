@@ -7,6 +7,19 @@ Anxious uses advanced algorithms and technologies to detect and remove unnecessa
 
 With Anxious, you can rest assured that your computer will always run at top speed. The program automatically optimizes your system in the background, giving you a constant performance boost without the need for manual intervention.
 
+# The structure of Anxious
+```
+.
+└── /src
+    ├── /assets         # Global static files such as images, svg, Anxious logo, etc.
+    ├── /components     # Global shared/reusable components such as layouts (wrappers), form components, buttons
+    ├── /dashboard      # Can also be called pages, this is where most of the application will be contained.
+    ├── /lib            # Utilities, helpers, constants, etc.
+    ├── /styles         # The basic style, layout and design of the Anxious web application. 
+    ├── Anxious.tsx     # A code fragment that includes support and also describes the structure of the user interface.
+    └── main.tsx        # An Anxious snippet that is used to initialize and display a React component.
+```
+
 # Recommended IDE Setup
 
 - [Visual Studio Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
